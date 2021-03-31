@@ -1,4 +1,9 @@
 <h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
-<%= @product_count %>
-<%= @category_count %>
+<h2>Statistics</h2>
+<div class="card" style="width: 36rem;">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Product Count: <%= @product_count %> (<a href="/admin/products">View All Products</a>)</li>
+    <li class="list-group-item">Category Count: <%= @category_count %></li>
+  </ul>
+</div>
+
