@@ -2,6 +2,16 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
+    @order_items = LineItem.where(order_id: params[:id])
+
+    dummyHash = {}
+
+    @order_items.each_with_index do |item, i|
+      dummyHash[item.product_id] = @order_items[i].quantity
+    end
+
+    @enhanced_order ||= Product.where(id: dummyHash.keys).map {|product| { product:product, quantity: dummyHash[product.id] } }
+
   end
 
   def create
