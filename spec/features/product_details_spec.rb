@@ -27,6 +27,6 @@ RSpec.feature "user can navigate from the home page to the product detail page b
     expect(page).to have_content("Price")
 
 
-    save_screenshot
+    # save_screenshot
   end
 end
