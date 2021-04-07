@@ -15,6 +15,12 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 - Add RSpec testing for Product and User models
 - Add Capybara BDD test framework
 
+## Screenshots
+!["Screenshot of Home Page"](https://github.com/gwan93/jungle/blob/master/docs/Jungle-main-page.png?raw=true)
+!["Screenshot of Product Page"](https://github.com/gwan93/jungle/blob/master/docs/Jungle-product-page.png?raw=true)
+!["Screenshot of Cart Page"](https://github.com/gwan93/jungle/blob/master/docs/Jungle-cart-page.png?raw=true)
+
+
 
 ## Additional Steps for Apple M1 Machines
 
