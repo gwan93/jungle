@@ -1,6 +1,20 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. Various features were added in order to get familiar with working on existing projects and with the Rails language.
+
+## Features Added
+
+- Correctly display dollar figures ($x,xxx.yy format)
+- Show a different cart page when no items have been added to the cart
+- Add a sold out badge to items that are out of stock
+- The orders page now shows the items that the user ordered (rather than a generic thank you page)
+- Add administrator authentication to add/edit products and product categories
+- Add a count of current products and categories within the administrator dashboard
+- Add new routing and views for an 'About Us' page
+- Add user authentication
+- Add RSpec testing for Product and User models
+- Add Capybara BDD test framework
+
 
 ## Additional Steps for Apple M1 Machines
 
@@ -25,6 +39,11 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
+
+## Future Development
+- Email receipts to be sent when an order is successfully placed
+- Star ratings for products
+- Inventory adjustment as items are sold
 
 ## Dependencies
 
