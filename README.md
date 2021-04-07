@@ -1,6 +1,16 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. Various features were added in order to get familiar with working on existing projects and with the Rails language.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+
+## Goals Of This Project:
+
+The goals of this project were:
+- Become familiar with Ruby and the Rails framework
+- Learn how to navigate an existing code-base
+- Use existing code style and approach to implement new features in unfamiliar territory
+- Apply previous learning tactics to research and become familiar with a new paradigm, language and framework
+- A simulation of the real world where feature and bug-fix requests are listed instead of step-by-step instructions on how to implement a solution
+
 
 ## Features Added
 
